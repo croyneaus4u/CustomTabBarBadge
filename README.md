@@ -1,6 +1,6 @@
 # CustomTabBarBadge
 
-[![CI Status](http://img.shields.io/travis/labkumar.singh/CustomTabBarBadge.svg?style=flat)](https://travis-ci.org/labkumar.singh/CustomTabBarBadge)
+[![CI Status](http://img.shields.io/travis/croyneaus4u/CustomTabBarBadge.svg?style=flat)](https://travis-ci.org/croyneaus4u/CustomTabBarBadge)
 [![Version](https://img.shields.io/cocoapods/v/CustomTabBarBadge.svg?style=flat)](http://cocoapods.org/pods/CustomTabBarBadge)
 [![License](https://img.shields.io/cocoapods/l/CustomTabBarBadge.svg?style=flat)](http://cocoapods.org/pods/CustomTabBarBadge)
 [![Platform](https://img.shields.io/cocoapods/p/CustomTabBarBadge.svg?style=flat)](http://cocoapods.org/pods/CustomTabBarBadge)
@@ -22,7 +22,7 @@ pod "CustomTabBarBadge"
 
 ## Author
 
-labkumar.singh, croyneaus4u@gmail.com
+croyneaus4u, croyneaus4u@gmail.com
 
 ## License
 

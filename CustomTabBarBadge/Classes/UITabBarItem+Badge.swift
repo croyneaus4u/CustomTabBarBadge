@@ -62,7 +62,6 @@ fileprivate extension UITabBarItem {
         return tabbarView!
     }
     
-    
     func applyBadgeConfiguration (_ customBadge: UILabel) {
         customBadge.textColor = badgeConfigurationProvider?.badgeTextColor ?? UIColor.black
         customBadge.backgroundColor = badgeConfigurationProvider?.badgeBackgroundColor ?? UIColor.blue
@@ -167,12 +166,16 @@ public extension UITabBarItem {
         return customBadge?.text
     }
     
-    public func setTabBadgeValue (_ value: String?) {
+    func setTabBadgeValue (_ value: String?) {
+        setTabBadgeValue(value, withCompletion: nil)
+    }
+    
+    func setTabBadgeValue (_ value: String?, withCompletion handler: BadgeAnimationCompletionBlock?) {
         var customBadge = getCustomBadgeForCurrentTabbarItem()
         
         if customBadge == nil {
             customBadge = initializeAnBadgeLabelAccordingToMacro()
-            dataHandler.customBadgeLabels[getHashString()] = customBadge
+            dataHandler.customBadgeLabels["\(UInt(self.hash))"] = customBadge
             
             let tabBarView = getCachedTopTabbarView()
             tabBarView?.addSubview(customBadge!)
@@ -190,12 +193,13 @@ public extension UITabBarItem {
             customBadge?.isHidden = false
             customBadge?.alpha = 1.0
             
-            callBadgeAnimationProviderAppearanceAnimationwithBadge(customBadge!, withValue: value!, withCompletion: nil)
+            callBadgeAnimationProviderAppearanceAnimationwithBadge(customBadge!, withValue: value!, withCompletion: handler)
         } else {
             callBadgeAnimationProviderDisappearanceAnimationwithBadge(customBadge!, withCompletion: {
                 customBadge?.text = ""
                 customBadge?.isHidden = true
                 customBadge?.alpha = 0.0
+                handler?()
             })
         }
     }

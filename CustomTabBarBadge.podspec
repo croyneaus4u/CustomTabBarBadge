@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CustomTabBarBadge'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CustomTabBarBadge.'
+  s.summary          = 'This library provides a way to add custom Badge with Animation to TabBar.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    * This library adds an extension to UITabBarItem to add customised Badge to UITabBar
+    * It provides Animation protocol for the developer to provide their own Animations
+    * It provides a configuration protocol for the developer to provide their own configurations, such as font, backgroundColor etc.
                        DESC
 
-  s.homepage         = 'https://github.com/labkumar.singh/CustomTabBarBadge'
+  s.homepage         = 'https://github.com/croyneaus4u/CustomTabBarBadge'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'labkumar.singh' => 'croyneaus4u@gmail.com' }
-  s.source           = { :git => 'https://github.com/labkumar.singh/CustomTabBarBadge.git', :tag => s.version.to_s }
+  s.author           = { 'croyneaus4u' => 'croyneaus4u@gmail.com' }
+  s.source           = { :git => 'https://github.com/croyneaus4u/CustomTabBarBadge.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
