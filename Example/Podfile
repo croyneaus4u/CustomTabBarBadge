@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CustomTabBarBadge_Example' do
+  pod 'CustomTabBarBadge', :path => '../'
+
+  target 'CustomTabBarBadge_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
