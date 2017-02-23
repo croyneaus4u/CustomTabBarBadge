@@ -1,0 +1,6 @@
+framework module Pods_CustomTabBarBadge_Tests {
+  umbrella header "Pods-CustomTabBarBadge_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

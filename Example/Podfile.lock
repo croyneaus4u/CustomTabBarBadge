@@ -1,0 +1,16 @@
+PODS:
+  - CustomTabBarBadge (0.1.0)
+
+DEPENDENCIES:
+  - CustomTabBarBadge (from `../`)
+
+EXTERNAL SOURCES:
+  CustomTabBarBadge:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CustomTabBarBadge: e82ac0091e12297aeee3202825c3f39b96f8ad5e
+
+PODFILE CHECKSUM: 5956be0ffa2322f0fc830ac6c7c0bcdafd6e2656
+
+COCOAPODS: 1.2.0

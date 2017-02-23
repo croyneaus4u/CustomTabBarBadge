@@ -1,0 +1,6 @@
+framework module CustomTabBarBadge {
+  umbrella header "CustomTabBarBadge-umbrella.h"
+
+  export *
+  module * { export * }
+}
