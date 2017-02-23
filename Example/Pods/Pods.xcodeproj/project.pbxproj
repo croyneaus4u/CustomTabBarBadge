@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1490772BDBC6B644CCA4C68BA572D5EC /* UITabBarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A25C4CB5FB2980AF8E84827FB93130 /* UITabBarConfiguration.swift */; };
 		230B8B82D56CF39366BFFE71B32E5D0B /* Pods-CustomTabBarBadge_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FACEAEF6CF91F1B162CA5CFE6285D16A /* Pods-CustomTabBarBadge_Example-dummy.m */; };
-		309D5B5E05EF3CBFAA259BA529EA0447 /* CustomTabBarBadge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40DCCCF963022F0B41D64C205E2D4B /* CustomTabBarBadge-dummy.m */; };
 		408CF51B21B88D8C3DB1619142B31358 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		43FE4361EE157BF95115EA89D32C00D9 /* CustomTabBarBadge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2869E9DE064310F28BD41D14A38838E5 /* CustomTabBarBadge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A7DDA1E2EDADE86DB47AA67765BF78F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5AE099BC728D11FDCD20795B1BABC465 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		5FB869E6F196A23D4781347F38F23D20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6F2951B0AC982586FA3AB4F8009DB909 /* CustomTabBarBadge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2869E9DE064310F28BD41D14A38838E5 /* CustomTabBarBadge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D2E5567C161E82925132265A4101548 /* Pods-CustomTabBarBadge_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C42C349671A7F3FFF3C1C304B9E52E /* Pods-CustomTabBarBadge_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A77150DDBE94E2BE4661D5CE6A02CE40 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC3F9780E083504BBC73D167FF904B1 /* ReplaceMe.swift */; };
+		8A259D87AEB61D6B3FF3EB872C20BF58 /* UITabBarItem+Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D0A06A2604F17514C3CFB58299EC5 /* UITabBarItem+Badge.swift */; };
+		9D15353DB057474CB807AF09F0F5B39E /* UITabBarAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400119B708A452458DD741C982DA69E9 /* UITabBarAnimation.swift */; };
 		C1E38AC74E545BB9708799BAF8AB916E /* Pods-CustomTabBarBadge_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90177CB96F9632D349E019FA56098542 /* Pods-CustomTabBarBadge_Tests-dummy.m */; };
 		F14840C1E89D7A677137CAB8776F76B1 /* Pods-CustomTabBarBadge_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8925D5A7D8F2292ADFB024B3EB8E828 /* Pods-CustomTabBarBadge_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FADB6D9EE575E440C9CE8684D8DDCC0F /* CustomTabBarBadge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40DCCCF963022F0B41D64C205E2D4B /* CustomTabBarBadge-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +26,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A17EEABF90CADEBC0B749D6219F0897A;
+			remoteGlobalIDString = 6F62CA0CA8B25DF8AAABDE8A6B367A49;
 			remoteInfo = CustomTabBarBadge;
 		};
 /* End PBXContainerItemProxy section */
@@ -40,11 +42,13 @@
 		2C800F3ECC0DB5E7387F5F4243A064D7 /* Pods-CustomTabBarBadge_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CustomTabBarBadge_Example.modulemap"; sourceTree = "<group>"; };
 		2DA2B7ACB9FF9DF6B266C0584007CD56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DD5314118C8D6F138648340E8AF69E5 /* Pods-CustomTabBarBadge_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomTabBarBadge_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		34A25C4CB5FB2980AF8E84827FB93130 /* UITabBarConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITabBarConfiguration.swift; sourceTree = "<group>"; };
+		400119B708A452458DD741C982DA69E9 /* UITabBarAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITabBarAnimation.swift; sourceTree = "<group>"; };
 		52256CA93F152DAA5451CAFF8C0BB47A /* Pods-CustomTabBarBadge_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomTabBarBadge_Example-resources.sh"; sourceTree = "<group>"; };
 		5AAE5F03C7E3016B8334F99E986C1067 /* Pods-CustomTabBarBadge_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomTabBarBadge_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5DC3F9780E083504BBC73D167FF904B1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		5DC4493DE2BBA4EC3AC9CB26B3406C1A /* Pods-CustomTabBarBadge_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomTabBarBadge_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7A4A04CDF1DA5B7B8DBB9C2FB33C1C91 /* Pods-CustomTabBarBadge_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomTabBarBadge_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8C8D0A06A2604F17514C3CFB58299EC5 /* UITabBarItem+Badge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+Badge.swift"; sourceTree = "<group>"; };
 		8F5D91B11015E9DB54A0769BAA5124DF /* Pods-CustomTabBarBadge_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CustomTabBarBadge_Tests.modulemap"; sourceTree = "<group>"; };
 		90177CB96F9632D349E019FA56098542 /* Pods-CustomTabBarBadge_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomTabBarBadge_Tests-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -81,11 +85,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B095BBB8E22744B33FDDE8944B6DF90B /* Frameworks */ = {
+		D9AF4132FA48332AEB1A3271388F4213 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A7DDA1E2EDADE86DB47AA67765BF78F /* Foundation.framework in Frameworks */,
+				5AE099BC728D11FDCD20795B1BABC465 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +125,7 @@
 		7D73128F22554019D065865376CE669E /* CustomTabBarBadge */ = {
 			isa = PBXGroup;
 			children = (
-				C74B8267F935A89A4F47C492E06A0E87 /* CustomTabBarBadge */,
+				A3B310C77350B64B86E22A8283FC139E /* CustomTabBarBadge */,
 				C32DD2A9B70C590A25815DDF45BECA96 /* Support Files */,
 			);
 			name = CustomTabBarBadge;
@@ -137,15 +141,6 @@
 				767DC3A34F85210D4CA87CFEE879DB8B /* Products */,
 				CB40323D8855FC1092724AD8990EC928 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8F49201097B3CE1D6502168EF5D62003 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				5DC3F9780E083504BBC73D167FF904B1 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		A153969273CC0CC95E4B77E512ECB4AF /* Pods-CustomTabBarBadge_Tests */ = {
@@ -164,6 +159,15 @@
 			);
 			name = "Pods-CustomTabBarBadge_Tests";
 			path = "Target Support Files/Pods-CustomTabBarBadge_Tests";
+			sourceTree = "<group>";
+		};
+		A3B310C77350B64B86E22A8283FC139E /* CustomTabBarBadge */ = {
+			isa = PBXGroup;
+			children = (
+				EB8B91F335F09F0DFCA3BE833EBB20C4 /* Classes */,
+			);
+			name = CustomTabBarBadge;
+			path = CustomTabBarBadge;
 			sourceTree = "<group>";
 		};
 		ADF69A4DAFFA2DB7C44C80BBBF452A8B /* Pods-CustomTabBarBadge_Example */ = {
@@ -206,15 +210,6 @@
 			path = "Example/Pods/Target Support Files/CustomTabBarBadge";
 			sourceTree = "<group>";
 		};
-		C74B8267F935A89A4F47C492E06A0E87 /* CustomTabBarBadge */ = {
-			isa = PBXGroup;
-			children = (
-				8F49201097B3CE1D6502168EF5D62003 /* Classes */,
-			);
-			name = CustomTabBarBadge;
-			path = CustomTabBarBadge;
-			sourceTree = "<group>";
-		};
 		CB40323D8855FC1092724AD8990EC928 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,14 +219,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		EB8B91F335F09F0DFCA3BE833EBB20C4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				400119B708A452458DD741C982DA69E9 /* UITabBarAnimation.swift */,
+				34A25C4CB5FB2980AF8E84827FB93130 /* UITabBarConfiguration.swift */,
+				8C8D0A06A2604F17514C3CFB58299EC5 /* UITabBarItem+Badge.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3AA5482F96A3FB5257A2C8874D2400BB /* Headers */ = {
+		C13E20EAD6F20DFEC9804A17DBABB841 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43FE4361EE157BF95115EA89D32C00D9 /* CustomTabBarBadge-umbrella.h in Headers */,
+				6F2951B0AC982586FA3AB4F8009DB909 /* CustomTabBarBadge-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +260,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A17EEABF90CADEBC0B749D6219F0897A /* CustomTabBarBadge */ = {
+		6F62CA0CA8B25DF8AAABDE8A6B367A49 /* CustomTabBarBadge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82D235987FE867D5B37140F7B4C27373 /* Build configuration list for PBXNativeTarget "CustomTabBarBadge" */;
+			buildConfigurationList = 5C403F8FEBEF36180F5D8CF78D07EBD7 /* Build configuration list for PBXNativeTarget "CustomTabBarBadge" */;
 			buildPhases = (
-				2B6257914B043DB829EF80C73FD937AC /* Sources */,
-				B095BBB8E22744B33FDDE8944B6DF90B /* Frameworks */,
-				3AA5482F96A3FB5257A2C8874D2400BB /* Headers */,
+				10100FB72C9F9C7FBD6F556A3A44A406 /* Sources */,
+				D9AF4132FA48332AEB1A3271388F4213 /* Frameworks */,
+				C13E20EAD6F20DFEC9804A17DBABB841 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -327,7 +333,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A17EEABF90CADEBC0B749D6219F0897A /* CustomTabBarBadge */,
+				6F62CA0CA8B25DF8AAABDE8A6B367A49 /* CustomTabBarBadge */,
 				E719A8E48B9C7608452F700B611BF527 /* Pods-CustomTabBarBadge_Example */,
 				AB8A39B3C97CF6B016015BEC9DE8A7B6 /* Pods-CustomTabBarBadge_Tests */,
 			);
@@ -335,12 +341,14 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2B6257914B043DB829EF80C73FD937AC /* Sources */ = {
+		10100FB72C9F9C7FBD6F556A3A44A406 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				309D5B5E05EF3CBFAA259BA529EA0447 /* CustomTabBarBadge-dummy.m in Sources */,
-				A77150DDBE94E2BE4661D5CE6A02CE40 /* ReplaceMe.swift in Sources */,
+				FADB6D9EE575E440C9CE8684D8DDCC0F /* CustomTabBarBadge-dummy.m in Sources */,
+				9D15353DB057474CB807AF09F0F5B39E /* UITabBarAnimation.swift in Sources */,
+				1490772BDBC6B644CCA4C68BA572D5EC /* UITabBarConfiguration.swift in Sources */,
+				8A259D87AEB61D6B3FF3EB872C20BF58 /* UITabBarItem+Badge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +374,7 @@
 		3C6EF5391F95360DF72E6A5287620E8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CustomTabBarBadge;
-			target = A17EEABF90CADEBC0B749D6219F0897A /* CustomTabBarBadge */;
+			target = 6F62CA0CA8B25DF8AAABDE8A6B367A49 /* CustomTabBarBadge */;
 			targetProxy = 1B92D3AFEC56ECE20F281AF7C93668DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -436,38 +444,6 @@
 				PRODUCT_NAME = Pods_CustomTabBarBadge_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5B0D9F7AE76A4ACE66B3C3F847D44061 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9473C5995247C52EB625742EAF006A12 /* CustomTabBarBadge.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CustomTabBarBadge/CustomTabBarBadge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CustomTabBarBadge/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CustomTabBarBadge/CustomTabBarBadge.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CustomTabBarBadge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -550,6 +526,38 @@
 			};
 			name = Release;
 		};
+		93E191161CCF89A15F38F6B8AB5F055E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9473C5995247C52EB625742EAF006A12 /* CustomTabBarBadge.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CustomTabBarBadge/CustomTabBarBadge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CustomTabBarBadge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CustomTabBarBadge/CustomTabBarBadge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CustomTabBarBadge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -594,6 +602,39 @@
 			};
 			name = Debug;
 		};
+		A56D54B6384597DD0C8A9CCA9969119D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9473C5995247C52EB625742EAF006A12 /* CustomTabBarBadge.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CustomTabBarBadge/CustomTabBarBadge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CustomTabBarBadge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CustomTabBarBadge/CustomTabBarBadge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CustomTabBarBadge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D1D067A831F199E38115CECD25EF4791 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D413AB57EDEA03064490FEAF34380CF /* Pods-CustomTabBarBadge_Example.release.xcconfig */;
@@ -629,39 +670,6 @@
 			};
 			name = Release;
 		};
-		F3F3B8F5DF8192FE2DFCEF0F9102F79F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9473C5995247C52EB625742EAF006A12 /* CustomTabBarBadge.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CustomTabBarBadge/CustomTabBarBadge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CustomTabBarBadge/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CustomTabBarBadge/CustomTabBarBadge.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CustomTabBarBadge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -683,20 +691,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5C403F8FEBEF36180F5D8CF78D07EBD7 /* Build configuration list for PBXNativeTarget "CustomTabBarBadge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56D54B6384597DD0C8A9CCA9969119D /* Debug */,
+				93E191161CCF89A15F38F6B8AB5F055E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		602AAA0C30A23DA1CFB4026FEA39412B /* Build configuration list for PBXNativeTarget "Pods-CustomTabBarBadge_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75CFCD649A0F6F48D096543421559D83 /* Debug */,
 				D1D067A831F199E38115CECD25EF4791 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		82D235987FE867D5B37140F7B4C27373 /* Build configuration list for PBXNativeTarget "CustomTabBarBadge" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F3F3B8F5DF8192FE2DFCEF0F9102F79F /* Debug */,
-				5B0D9F7AE76A4ACE66B3C3F847D44061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

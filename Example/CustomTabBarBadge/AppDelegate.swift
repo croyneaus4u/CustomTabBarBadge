@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  CustomTabBarBadge
 //
-//  Created by labkumar.singh on 02/23/2017.
-//  Copyright (c) 2017 labkumar.singh. All rights reserved.
+//  Created by croyneaus4u on 02/23/2017.
+//  Copyright (c) 2017 croyneaus4u. All rights reserved.
 //
 
 import UIKit
+import CustomTabBarBadge
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        UITabBarItem.setDefaultAnimationProvider(DefaultBadgeAnimation())
+        UITabBarItem.setDefaultConfigurationProvider(DefaultBadgeConfiguration())
+        
         return true
     }
 

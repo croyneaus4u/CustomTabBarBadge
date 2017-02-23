@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E44AD061E5EA9FE004D073A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AD021E5EA9FE004D073A /* FirstViewController.swift */; };
+		4E44AD071E5EA9FE004D073A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AD031E5EA9FE004D073A /* SecondViewController.swift */; };
+		4E44AD081E5EA9FE004D073A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E44AD051E5EA9FE004D073A /* Main.storyboard */; };
+		4E44AD0C1E5EAB61004D073A /* DefaultBadgeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AD091E5EAB61004D073A /* DefaultBadgeConfiguration.swift */; };
+		4E44AD0D1E5EAB61004D073A /* ArabicBadgeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AD0A1E5EAB61004D073A /* ArabicBadgeConfiguration.swift */; };
+		4E44AD0E1E5EAB61004D073A /* DefaultBadgeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AD0B1E5EAB61004D073A /* DefaultBadgeAnimation.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
@@ -28,14 +32,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0849F9425C1EF5247EB1F862 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0849F9425C1EF5247EB1F862 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		42403A24A3E115893302C70F /* Pods-CustomTabBarBadge_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTabBarBadge_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomTabBarBadge_Tests/Pods-CustomTabBarBadge_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		43730C957B6E4FDDD38BD1A7 /* Pods-CustomTabBarBadge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTabBarBadge_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomTabBarBadge_Example/Pods-CustomTabBarBadge_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4E44AD021E5EA9FE004D073A /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../../../../../Desktop/TabDemo/TabDemo/FirstViewController.swift; sourceTree = "<group>"; };
+		4E44AD031E5EA9FE004D073A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../../../../../Desktop/TabDemo/TabDemo/SecondViewController.swift; sourceTree = "<group>"; };
+		4E44AD041E5EA9FE004D073A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E44AD091E5EAB61004D073A /* DefaultBadgeConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultBadgeConfiguration.swift; sourceTree = "<group>"; };
+		4E44AD0A1E5EAB61004D073A /* ArabicBadgeConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArabicBadgeConfiguration.swift; sourceTree = "<group>"; };
+		4E44AD0B1E5EAB61004D073A /* DefaultBadgeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultBadgeAnimation.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CustomTabBarBadge_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabBarBadge_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* CustomTabBarBadge_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabBarBadge_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,8 +53,8 @@
 		76A9022F9BDB612289F22E8A /* Pods-CustomTabBarBadge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTabBarBadge_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomTabBarBadge_Example/Pods-CustomTabBarBadge_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		786B6560AED42BDF8E166B06 /* Pods_CustomTabBarBadge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomTabBarBadge_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98AAF2397C6552636CAB589E /* Pods-CustomTabBarBadge_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTabBarBadge_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomTabBarBadge_Tests/Pods-CustomTabBarBadge_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B01FCA8CAABBAEE8BA0C9214 /* CustomTabBarBadge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CustomTabBarBadge.podspec; path = ../CustomTabBarBadge.podspec; sourceTree = "<group>"; };
-		B2D832646A12E90921288906 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B01FCA8CAABBAEE8BA0C9214 /* CustomTabBarBadge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomTabBarBadge.podspec; path = ../CustomTabBarBadge.podspec; sourceTree = "<group>"; };
+		B2D832646A12E90921288906 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E44AD0F1E5EABFF004D073A /* TabBarCustomization */ = {
+			isa = PBXGroup;
+			children = (
+				4E44AD091E5EAB61004D073A /* DefaultBadgeConfiguration.swift */,
+				4E44AD0A1E5EAB61004D073A /* ArabicBadgeConfiguration.swift */,
+				4E44AD0B1E5EAB61004D073A /* DefaultBadgeAnimation.swift */,
+			);
+			name = TabBarCustomization;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -93,9 +111,11 @@
 		607FACD21AFB9204008FA782 /* Example for CustomTabBarBadge */ = {
 			isa = PBXGroup;
 			children = (
+				4E44AD0F1E5EABFF004D073A /* TabBarCustomization */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				4E44AD021E5EA9FE004D073A /* FirstViewController.swift */,
+				4E44AD031E5EA9FE004D073A /* SecondViewController.swift */,
+				4E44AD051E5EA9FE004D073A /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -248,7 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				4E44AD081E5EA9FE004D073A /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -361,8 +381,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				4E44AD0E1E5EAB61004D073A /* DefaultBadgeAnimation.swift in Sources */,
+				4E44AD071E5EA9FE004D073A /* SecondViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				4E44AD0D1E5EAB61004D073A /* ArabicBadgeConfiguration.swift in Sources */,
+				4E44AD0C1E5EAB61004D073A /* DefaultBadgeConfiguration.swift in Sources */,
+				4E44AD061E5EA9FE004D073A /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,12 +409,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		4E44AD051E5EA9FE004D073A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
+				4E44AD041E5EA9FE004D073A /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../../../../Desktop/TabDemo/TabDemo;
 			sourceTree = "<group>";
 		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {

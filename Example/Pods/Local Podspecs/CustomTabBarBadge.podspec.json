@@ -1,18 +1,18 @@
 {
   "name": "CustomTabBarBadge",
   "version": "0.1.0",
-  "summary": "A short description of CustomTabBarBadge.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/labkumar.singh/CustomTabBarBadge",
+  "summary": "This library provides a way to add custom Badge with Animation to TabBar.",
+  "description": "* This library adds an extension to UITabBarItem to add customised Badge to UITabBar\n* It provides Animation protocol for the developer to provide their own Animations\n* It provides a configuration protocol for the developer to provide their own configurations, such as font, backgroundColor etc.",
+  "homepage": "https://github.com/croyneaus4u/CustomTabBarBadge",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "labkumar.singh": "croyneaus4u@gmail.com"
+    "croyneaus4u": "croyneaus4u@gmail.com"
   },
   "source": {
-    "git": "https://github.com/labkumar.singh/CustomTabBarBadge.git",
+    "git": "https://github.com/croyneaus4u/CustomTabBarBadge.git",
     "tag": "0.1.0"
   },
   "platforms": {
