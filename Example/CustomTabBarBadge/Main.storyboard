@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gzw-yc-4z3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Second-->
+        <scene sceneID="rra-z5-Ht7">
+            <objects>
+                <viewController id="cPj-wb-spO" customClass="SecondViewController" customModule="CustomTabBarBadge_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4h4-IQ-1l9"/>
+                        <viewControllerLayoutGuide type="bottom" id="SVe-7m-y7b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pCG-WX-iWI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Second" image="second" id="SWa-G9-6dF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N1w-6P-sea" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="177" y="262"/>
+        </scene>
+        <!--First-->
+        <scene sceneID="0RG-ha-7WC">
+            <objects>
+                <viewController id="oyD-cY-cP7" customClass="FirstViewController" customModule="CustomTabBarBadge_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="15c-Sa-6HH"/>
+                        <viewControllerLayoutGuide type="bottom" id="m0b-kM-FBB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qJG-kp-Way">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="First" image="first" id="nS9-SG-JhU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Nj-Zm-GzY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="177" y="-393"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Sdm-BD-zoL">
+            <objects>
+                <tabBarController id="gzw-yc-4z3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="qCU-Z6-dsc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="oyD-cY-cP7" kind="relationship" relationship="viewControllers" id="jNG-zU-1qm"/>
+                        <segue destination="cPj-wb-spO" kind="relationship" relationship="viewControllers" id="dC2-3I-jVW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CBO-75-c26" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-775" y="-65"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>
