@@ -2,8 +2,8 @@
 //  DefaultBadgeAnimation.swift
 //  TabDemo
 //
-//  Created by labkumar.singh on 08/02/17.
-//  Copyright © 2017 labkumar.singh. All rights reserved.
+//  Created by croyneaus4u on 08/02/17.
+//  Copyright © 2017 croyneaus4u. All rights reserved.
 //
 
 import Foundation
